@@ -1,0 +1,13 @@
+# Core dependencies for the text data-augmentation pipeline (Qwen3-VL via DashScope).
+# See README.md -> "Requirements" for details.
+
+openai>=1.0.0        # OpenAI-compatible client used to call Qwen3-VL through DashScope
+pillow>=10.0.0       # Image handling and TIFF-to-PNG conversion
+numpy>=1.24.0        # Numerical utilities (full training/evaluation pipeline)
+
+# Additional packages required by the full training and evaluation pipeline
+# will be added here upon release of the complete source code. For example:
+# torch
+# torchvision
+# ultralytics
+# transformers
